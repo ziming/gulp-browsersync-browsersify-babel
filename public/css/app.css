@@ -1,0 +1,20 @@
+body {
+  color: red; }
+
+.button {
+  background: black;
+  color: white; }
+
+.alert {
+  background: white;
+  border: 1px dotted red; }
+
+#home {
+  background: blue; }
+
+/* 
+In SASS, during compilation, the code referenced by @import will be shifted into app.css all in 1 file
+not like normal CSS where you make another http request.
+*/
+
+/*# sourceMappingURL=app.css.map */

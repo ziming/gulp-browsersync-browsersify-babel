@@ -1,0 +1,1 @@
+{"version":3,"sources":["one.js","two.js","three.js"],"names":[],"mappings":"AAAA;ACAA;ACAA","file":"all.js","sourcesContent":["console.log(1);","console.log(2);","console.log(3);"],"sourceRoot":"/source/"}

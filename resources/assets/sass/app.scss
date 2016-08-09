@@ -1,0 +1,14 @@
+$primaryColor: red;
+
+body {
+    color: $primaryColor;
+}
+
+@import 'components/button';
+@import 'components/alert';
+@import 'pages/home.scss';
+
+/* 
+In SASS, during compilation, the code referenced by @import will be shifted into app.css all in 1 file
+not like normal CSS where you make another http request.
+*/

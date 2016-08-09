@@ -1,0 +1,1 @@
+{"version":3,"sources":["module.coffee"],"names":[],"mappings":"AAAA;AAAA,MAAA;;EAAM;IACW,kBAAA;MACT,KAAA,CAAM,aAAN;IADS;;;;;;EAGjB,IAAI;AAJJ","file":"module.js","sourcesContent":["class MyModule\r\n    constructor: ->\r\n        alert 'hello world'\r\n\r\nnew MyModule"],"sourceRoot":"/source/"}

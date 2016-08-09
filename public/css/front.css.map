@@ -1,0 +1,1 @@
+{"version":3,"sources":["front.scss"],"names":[],"mappings":"AAAA;EACI,WAAW,EACd","file":"front.css","sourcesContent":[".front {\r\n    color: red;\r\n}"],"sourceRoot":"/source/"}
