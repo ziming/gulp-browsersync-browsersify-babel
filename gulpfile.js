@@ -1,5 +1,7 @@
 var elixir = require('laravel-elixir');
 
+require('./laravel-elixir-webpack');
+
 // This line disable source maps, so you wont see the sourcemap comments that "link" to ur 'coffee, ES6, scss files'
 // exlixir.config.sourcemaps = false;
 
@@ -106,4 +108,7 @@ elixir(function(mix) {
     
     // calling the extension we created with a message
     mix.speak('Hello World');
+
+    // new addition for webpack playing
+    mix.webpack('main.js').sass('app.scss');
 });

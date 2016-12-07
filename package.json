@@ -5,8 +5,14 @@
     "dev": "gulp watch"
   },
   "devDependencies": {
+    "bootstrap-sass": "^3.0.0",
+    "buble-loader": "^0.3.2",
     "gulp": "^3.9.1",
     "laravel-elixir": "^5.0.0",
-    "bootstrap-sass": "^3.0.0"
+    "webpack": "^1.13.3",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "vue": "^2.1.4"
   }
 }
